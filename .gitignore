@@ -1,0 +1,14 @@
+# Ignore dataset files
+*.csv  
+*.xlsx  
+*.json  
+
+# Ignore model and scaler files
+*.pkl  
+
+# Ignore system files
+desktop.ini  
+
+# Ignore Python cache and virtual environments
+__pycache__/  
+venv/  
