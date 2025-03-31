@@ -36,13 +36,13 @@ Data preprocessing techniques include handling missing values, feature scaling, 
 
 # Model Details  
 
-The model is trained using Random Forest Regression (or update with your actual model), optimized using Grid Search for hyperparameter tuning.  
+The model is trained using Random Forest Regression, optimized using Random Search for hyperparameter tuning.  
 
 Performance Metrics:  
 
-- Mean Absolute Error (MAE): XX.XX  
-- Root Mean Squared Error (RMSE): XX.XX  
-- R² Score: XX.XX  
+- Mean Absolute Error (MAE): 0.5074883402426179  
+- Root Mean Squared Error (RMSE): 0.6808758390200957 
+- R² Score: 0.9940678476762168  
 
 # How to Use  
 
