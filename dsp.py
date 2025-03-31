@@ -7,8 +7,8 @@ import requests
 import plotly.graph_objects as go
 
 # OpenWeatherMap API Config
-API_KEY = "7bd0dea36244b55317d1896f9a324850"  # 🔴 Replace with your actual API key
-BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
+API_KEY = "YOUR_API_KEY"  # 🔴 Replace with your actual API key
+BASE_URL = "https://api.openweathermap.org/data/2.5/weather" # 🔴 Replace weather with onecall if u have paid plan Oneweather API
 
 # Load Model, Scaler, and Data
 @st.cache_resource
@@ -62,7 +62,7 @@ district_coords = {
 # Sidebar: Select Location
 district = st.sidebar.selectbox("📍 Select District", data["District"].unique())
 
-# Get Coordinates for Selected District (Default: Kathmandu)
+# Get Coordinates for Selected District (Set: Kathmandu)
 lat, lon = district_coords.get(district, (27.7172, 85.3240))
 
 # Define feature columns
